@@ -52,7 +52,7 @@ commit_message = "自動コミットメッセージ"
 
 # コミット日時の範囲設定
 start_date = datetime(2024, 7, 1)  # 開始日付
-end_date = datetime.now          # 今日の日付を終了日付に設定
+end_date = datetime.now()          # 今日の日付を終了日付に設定
 
 # 関数の呼び出し
 git_commit_and_push(repo_path, commit_message, start_date, end_date)
